@@ -1,4 +1,6 @@
+
 FROM nginx:alpine
+
 COPY index.html /usr/share/nginx/html/
 # Add a dummy test path to simplify local testing
 COPY mysite.template.tmp /etc/nginx/conf.d/default.conf 
